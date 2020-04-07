@@ -1,7 +1,9 @@
+const propB = 2;
 
 const CPUI = {
   teste: '123',
-  propB: 2,
+  propB,
 }
 
 export default CPUI;
+export const propB;
