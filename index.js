@@ -6,5 +6,5 @@ const CPUI = {
   propB,
 }
 
-export default CPUI;
-export const propB;
+module.exports.default = CPUI;
+export default propB;
