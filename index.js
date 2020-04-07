@@ -1,10 +1,8 @@
 const propB = 2;
-const teste = '123';
 
 const CPUI = {
-  teste,
+  teste: '123',
   propB,
 }
 
-module.exports.default = CPUI;
-export default propB;
+module.exports = CPUI;
