@@ -1,7 +1,8 @@
-const propB = 2;
+import { version } from './package.json';
 
 const CPUI = {
   teste: '123',
+  version,
   propB,
 }
 
