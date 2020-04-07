@@ -1,6 +1,6 @@
 {
   "name": "credpago-ui",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Componentes de interface da CredPago baseados em React",
   "main": "index.js",
   "scripts": {

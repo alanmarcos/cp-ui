@@ -1,9 +1,7 @@
-import { version } from './package.json';
+const { version } = require('./package.json');
 
 const CPUI = {
-  teste: '123',
-  version,
-  propB,
+  version
 }
 
 module.exports = CPUI;
