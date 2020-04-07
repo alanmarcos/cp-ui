@@ -1,5 +1,5 @@
 {
-  "name": "credpago-ui",
+  "name": "@credpago-ui",
   "version": "0.0.1",
   "description": "Componentes de interface da CredPago baseados em React",
   "main": "index.js",
