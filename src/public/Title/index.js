@@ -1,23 +1,31 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import CSS from './index.module.scss';
 
 const Title = (props) => {
-  const { level, children } = props;
+  const { level, children, className } = props;
+
+  const getClasses = () => {
+    const base = [className];
+
+    base.push( CSS.title )
+    return base.join(' ');
+  }
 
   const switchTitles = () => {
     switch(level){
       case 2:
-        return <h2 {...props}>{children}</h2>
+        return <h2 className={getClasses()}>{children}</h2>
       case 3:
-        return <h3 {...props}>{children}</h3>
+        return <h3 className={getClasses()}>{children}</h3>
       case 4:
-        return <h4 {...props}>{children}</h4>
+        return <h4 className={getClasses()}>{children}</h4>
       case 5:
-        return <h5 {...props}>{children}</h5>
+        return <h5 className={getClasses()}>{children}</h5>
       case 6:
-        return <h6 {...props}>{children}</h6>
+        return <h6 className={getClasses()}>{children}</h6>
       default:
-        return <h1 {...props}>{children}</h1>
+        return <h1 className={getClasses()}>{children}</h1>
                                     
     }
   }

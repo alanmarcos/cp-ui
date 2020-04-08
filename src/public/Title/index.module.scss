@@ -1,0 +1,149 @@
+@font-face {
+  font-family: 'Kiro';
+  src: local('Kiro Thin Italic'), local('Kiro-ThinItalic'),
+      url('../../../fonts/Kiro-ThinItalic.woff2') format('woff2'),
+      url('../../../fonts/Kiro-ThinItalic.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kiro';
+  src: local('Kiro Thin'), local('Kiro-Thin'),
+      url('../../../fonts/Kiro-Thin.woff2') format('woff2'),
+      url('../../../fonts/Kiro-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kiro';
+  src: local('Kiro Extra Light'), local('Kiro-ExtraLight'),
+      url('../../../fonts/Kiro-ExtraLight.woff2') format('woff2'),
+      url('../../../fonts/Kiro-ExtraLight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kiro';
+  src: local('Kiro'),
+      url('../../../fonts/Kiro.woff2') format('woff2'),
+      url('../../../fonts/Kiro.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kiro';
+  src: local('Kiro Light'), local('Kiro-Light'),
+      url('../../../fonts/Kiro-Light.woff2') format('woff2'),
+      url('../../../fonts/Kiro-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kiro';
+  src: local('Kiro Extra Bold Italic'), local('Kiro-ExtraBoldItalic'),
+      url('../../../fonts/Kiro-ExtraBoldItalic.woff2') format('woff2'),
+      url('../../../fonts/Kiro-ExtraBoldItalic.woff') format('woff');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kiro';
+  src: local('Kiro Extra Bold'), local('Kiro-ExtraBold'),
+      url('../../../fonts/Kiro-ExtraBold.woff2') format('woff2'),
+      url('../../../fonts/Kiro-ExtraBold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kiro';
+  src: local('Kiro Bold'), local('Kiro-Bold'),
+      url('../../../fonts/Kiro-Bold.woff2') format('woff2'),
+      url('../../../fonts/Kiro-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kiro';
+  src: local('Kiro Light Italic'), local('Kiro-LightItalic'),
+      url('../../../fonts/Kiro-LightItalic.woff2') format('woff2'),
+      url('../../../fonts/Kiro-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kiro';
+  src: local('Kiro Italic'), local('Kiro-Italic'),
+      url('../../../fonts/Kiro-Italic.woff2') format('woff2'),
+      url('../../../fonts/Kiro-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kiro';
+  src: local('Kiro Extra Light Italic'), local('Kiro-ExtraLightItalic'),
+      url('../../../fonts/Kiro-ExtraLightItalic.woff2') format('woff2'),
+      url('../../../fonts/Kiro-ExtraLightItalic.woff') format('woff');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kiro';
+  src: local('Kiro Bold Italic'), local('Kiro-BoldItalic'),
+      url('../../../fonts/Kiro-BoldItalic.woff2') format('woff2'),
+      url('../../../fonts/Kiro-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+.title {
+  font-family: 'Kiro';
+  letter-spacing: -.01em;
+}
+
+
+h1.title {
+  font-size:70px;
+}
+
+h2.title {
+  font-size:46px;
+}
+
+h3.title {
+  font-size:42px;
+}
+
+h4.title {
+  font-size:30px;
+}
+
+h5.title {
+  font-size:26px;
+}
+
+h6.title {
+  font-size:18px;
+}
