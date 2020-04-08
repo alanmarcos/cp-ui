@@ -2,17 +2,29 @@
   max-width:105px;
   height:auto;
   display: block;
+  margin:0 auto;
 }
 
 .text {
   max-width:300px;
   height:auto;
   display: block;
+  margin:0 auto;
 }
 
 .versionNumber {
   display: block;
   color:#454545;
   padding-top:1em;
-  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+  padding-bottom:.6em;
+}
+
+.welcomeWrapper {
+  min-height: calc(100vh - 80px);
+  display:grid;
+  text-align: center;
+
+  & > * {
+    align-self:center;
+  }
 }

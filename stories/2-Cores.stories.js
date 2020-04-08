@@ -2,10 +2,10 @@ import React from 'react';
 import Cores from '../src/internals/colors/index';
 import { withInfo } from '@storybook/addon-info';
 
-export const Todas = () => <Cores />;
+export const Lista = () => <Cores />;
 export default {
   title: 'Cores',
-  component: Todas,
+  component: Lista,
   decorators: [withInfo],
   parameters: {
     info: { 
