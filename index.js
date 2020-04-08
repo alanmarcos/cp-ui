@@ -1,11 +1,13 @@
 const { version } = require('./package.json');
-import Title from './src/public/Title';
-import Button from './src/public/Button';
+const Title = require('./src/public/Title');
+const Button = require('./src/public/Button');
 
 const CPUI = {
   version,
   Title,
   Button
 }
+
+console.log(CPUI);
 
 module.exports = CPUI;

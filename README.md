@@ -1,6 +1,6 @@
 # CP-UI
 
-Versão 0.0.8
+Versão 0.0.9
 
 
 ## Rodando o Storybook
