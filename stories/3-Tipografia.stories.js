@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from '@storybook/react/demo';
+import { withInfo } from '@storybook/addon-info';
 import Title from '../src/public/Title/index';
 
 export const Titulo1 = () => <Title>H1. Credpago UI</Title>
@@ -12,4 +12,8 @@ export const Titulo6 = () => <Title level={6}>H6. Credpago UI</Title>
 export default {
   title: 'Titulos',
   component: Titulo1,
+  decorators: [withInfo],
+  parameters: {
+    info: { inline: true },
+  },
 };
