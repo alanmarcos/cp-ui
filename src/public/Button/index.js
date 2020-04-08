@@ -1,11 +1,12 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import CSS from './index.module.scss';
 
 const Button = (props) => {
-  const { children, size, className, type } = props;
+  const { children, size, className, buttonType } = props;
   let isSmall = size === 'small';
   let isLarge = size === 'large';
-  let isPrimary = type === 'primary';
+  let isPrimary = buttonType === 'primary';
 
   const getClasses = () => {
     let base = [className];
@@ -25,6 +26,15 @@ const Button = (props) => {
   }
 
   return <button {...props} className={getClasses()}>{children}</button>
+}
+
+
+Button.propTypes = {
+  children: PropTypes.node.isRequired,
+  /** 
+	 * 'default' vem por padrão mas também é possível usar a variação 'primary'
+	 **/
+  buttonType: PropTypes.string
 }
 
 export default Button;

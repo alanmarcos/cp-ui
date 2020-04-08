@@ -2,13 +2,23 @@ import React from 'react';
 import { action } from '@storybook/addon-actions';
 import { Button } from '@storybook/react/demo';
 import { withA11y } from '@storybook/addon-a11y';
+import { withInfo } from '@storybook/addon-info';
 import CPButton from '../src/public/Button/index';
 
+const Descricao = `
+Botões seguindo o padrão de cores CredPago
+`
 
 export default {
   title: 'Button',
   component: Button,
-  decorators: [withA11y],
+  decorators: [withA11y, withInfo],
+  parameters: {
+    info: { 
+      inline: true,
+      text: Descricao // suporta markdown
+    },
+  },
 };
 
 export const Default = () => <CPButton onClick={action('clicked')}>Default Button</CPButton>;
