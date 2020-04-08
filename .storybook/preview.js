@@ -2,6 +2,7 @@ import React from 'react';
 import { addDecorator } from '@storybook/react';
 import './preview.css';
 
+
 addDecorator(storyFn => 
   <div 
     style={{ 

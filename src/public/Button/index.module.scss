@@ -1,0 +1,30 @@
+.button {
+  border:0;
+  padding:0;
+  border-radius: 0;
+  padding: .5em .75em;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+// sizes
+
+.btnLarge {
+  font-size:1.4em;
+  border-radius:6px;
+}
+
+.btnSm {
+  font-size:.7em;
+  border-radius:3px;
+}
+
+.typeDefault {
+  background: #113c64; // credpago color
+  color: white;
+}
+
+.typePrimary {
+  background: #26c3ef; // credpago color
+  color: #113c64; // credpago color
+}
